@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Club</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__container">
+            <a class="header__logo" href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+            <nav class="header__nav">
+              <ul class="header__menu">
+                <li>
+                  <a class="header__links" href="#less-talk-section"
+                    >Less talk</a
+                  >
+                </li>
+                <li>
+                  <a class="header__links" href="#services-section"
+                    >Services category</a
+                  >
+                </li>
+                <li>
+                  <a class="header__links" href="#customers-section"
+                    >Happy customer</a
+                  >
+                </li>
+                <li>
+                  <a class="header__links" href="#contacts-section">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__buttons">
+              <button class="header__button basket-btn-open" type="button">
+                <svg class="header__icon" width="40" height="40">
+                  <use href="./images/icons.svg#icon-basket-icon"></use>
+                </svg>
+              </button>
+              <div class="basket">
+                <button class="basket__button basket-btn-close" type="button">
+                  <svg width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-Arrow-1"></use>
+                  </svg>
+                </button>
+                <div class="basket__content">
+                  <h3 class="basket__title">Basket</h3>
+                  <p class="basket__text">Your basket is empty</p>
+                </div>
+              </div>
+              <button class="button modal-btn-open" type="button">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="hero-section" id="hero-section">
+          <div class="container">
+            <div class="hero-section__container">
+              <div class="hero-section__content">
+                <svg class="hero-section__arrow-bcg" width="64" height="48">
+                  <use href="./images/icons.svg#icon-bcg-arrow"></use>
+                </svg>
+                <h1 class="hero-section__title">
+                  Taking care for your Smart Dog!
+                </h1>
+                <p class="hero-section__text">
+                  Human–canine bonding is the relationship <br />
+                  between dogs and humans
+                </p>
+                <button class="button" type="button">Explore more</button>
+              </div>
+              <div class="hero-section__dog-center">
+                <img
+                  class="hero-section__dog-center--scarf"
+                  src="./images/hero-section-dog-scarf.png"
+                  alt="dog-scarf"
+                />
+                <img
+                  class="hero-section__dog-center--white"
+                  src="./images/hero-section-dog-white.png"
+                  alt="dog-white"
+                />
+                <img
+                  class="hero-section__dog-center--brown"
+                  src="./images/hero-section-dog-brown.png"
+                  alt="dog-brown"
+                />
+              </div>
+              <div class="hero-section__dog-right">
+                <img
+                  class="hero-section__dog-right--scarf"
+                  src="./images/hero-section-dog-scarf.png"
+                  alt="dog-scarf"
+                />
+                <img
+                  class="hero-section__dog-right--white"
+                  src="./images/hero-section-dog-white.png"
+                  alt="dog-white"
+                />
+                <img
+                  class="hero-section__dog-right--brown"
+                  src="./images/hero-section-dog-brown.png"
+                  alt="dog-brown"
+                />
+              </div>
+              <div class="hero-section__dog-left">
+                <img
+                  class="hero-section__dog-left--white"
+                  src="./images/hero-section-dog-white.png"
+                  alt="dog-white"
+                />
+                <img
+                  class="hero-section__dog-left--brown"
+                  src="./images/hero-section-dog-brown.png"
+                  alt="dog-brown"
+                />
+                <img
+                  class="hero-section__dog-left--scarf"
+                  src="./images/hero-section-dog-scarf.png"
+                  alt="dog-scarf"
+                />
+              </div>
+              <div class="hero-section__image-container">
+                <svg class="hero-section__paw-orange" width="42" height="42">
+                  <use href="./images/icons.svg#icon-icon-dog-paw"></use>
+                </svg>
+                <svg class="hero-section__paw-violet" width="42" height="42">
+                  <use href="./images/icons.svg#icon-icon-dog-paw"></use>
+                </svg>
+                <svg class="hero-section__paw-pink" width="42" height="42">
+                  <use href="./images/icons.svg#icon-icon-dog-paw"></use>
+                </svg>
+                <img src="./images/hero-section-dog.png" alt="smiling-dog" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="less-talk-section" id="less-talk-section">
+          <div class="container">
+            <div class="less-talk-section__container">
+              <div class="less-talk-section__media">
+                <a class="less-talk-section__media__btn" href="#">
+                  <img src="./images/video.png" alt="video-btn" />
+                </a>
+                <img
+                  class="less-talk-section__media__bcg"
+                  src="./images/less-talk-section-bcg.png"
+                  alt="vector"
+                />
+                <img src="./images/shetland-sheepdog.png" alt="smiling-dog" />
+              </div>
+              <div class="less-talk-section__content">
+                <h2 class="section-title">
+                  Less talk <br />
+                  and more walk
+                </h2>
+                <div class="less-talk-section__text-wrapper">
+                  <p class="less-talk-section__text">
+                    Sometimes our career, lifestyle, or routines can make it
+                    difficult to provide your pet with the recommended amount of
+                    exercise that they need. Which is why, it’s okay to use an
+                    extra hand in walking dogs so they are in perfect shape,
+                    mentally and physically.
+                  </p>
+                  <button class="button" type="button">Explore More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="services-section" id="services-section">
+          <div class="container">
+            <div class="services-section__container">
+              <h2 class="section-title">Services category</h2>
+              <div class="services-section__list">
+                <ul class="services-section__content">
+                  <li class="services-section__cards">
+                    <a href="#" class="services-section__cards__content">
+                      <svg
+                        class="services-section__icons"
+                        width="96"
+                        height="96"
+                      >
+                        <use href="./images/icons.svg#icon-grooming-icon"></use>
+                      </svg>
+                      <h3 class="services-section__cards__title">Grooming</h3>
+                    </a>
+                  </li>
+                  <li class="services-section__cards">
+                    <a href="" class="services-section__cards__content">
+                      <svg
+                        class="services-section__icons"
+                        width="96"
+                        height="96"
+                      >
+                        <use
+                          href="./images/icons.svg#icon-nutrition-icon"
+                        ></use>
+                      </svg>
+                      <h3 class="services-section__cards__title">
+                        Nutrition
+                      </h3></a
+                    >
+                  </li>
+                  <li class="services-section__cards">
+                    <a href="" class="services-section__cards__content"
+                      ><svg
+                        class="services-section__icons"
+                        width="96"
+                        height="96"
+                      >
+                        <use href="./images/icons.svg#icon-training-icon"></use>
+                      </svg>
+                      <h3 class="services-section__cards__title">
+                        Training
+                      </h3></a
+                    >
+                  </li>
+                  <li class="services-section__cards">
+                    <a href="" class="services-section__cards__content"
+                      ><svg
+                        class="services-section__icons"
+                        width="96"
+                        height="96"
+                      >
+                        <use href="./images/icons.svg#icon-bathing-icon"></use>
+                      </svg>
+                      <h3 class="services-section__cards__title">Bathing</h3></a
+                    >
+                  </li>
+                </ul>
+                <div class="services-section__more">
+                  <a href="#" class="services-section__more__text"
+                    >more services</a
+                  >
+                  <a href="">
+                    <svg
+                      class="services-section__more__icon"
+                      width="40"
+                      height="24"
+                    >
+                      <use href="./images/icons.svg#icon-more-servises"></use>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <svg class="services-section__arrow-bcg" width="192" height="144">
+                <use href="./images/icons.svg#icon-bcg-arrow"></use>
+              </svg>
+            </div>
+          </div>
+        </section>
+        <div class="bottom-bcg-container">
+          <section class="customers-section" id="customers-section">
+            <div class="container">
+              <div class="customers-section__content">
+                <h2 class="section-title section-title--centered">
+                  Happy customer
+                </h2>
+                <div class="customers-section__slider">
+                  <button
+                    class="customers-section__button carousel-button prev"
+                    type="button"
+                  >
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#icon-Arrow-1"></use>
+                    </svg>
+                  </button>
+                  <div class="customers-section__container swiper-container">
+                    <ul class="customers-section__list swiper-wrapper">
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture>
+                            <source
+                              srcset="
+                                ./images/customers-image-christin&tom.webp
+                              "
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-christin&tom.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">
+                              Christin & Tom
+                            </h3>
+                            <p class="customers-card__text">
+                              Love the overall workout experience!
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">5/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture class="customers-card__image">
+                            <source
+                              srcset="./images/customers-image-anna&tobby.webp"
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-anna&tobby.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">Anna & Tobby</h3>
+                            <p class="customers-card__text">
+                              Amazing Products & Delivery on time.
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon customers-card__icon--light"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">4/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture class="customers-card__image">
+                            <source
+                              srcset="./images/customers-image-sindy&kitch.webp"
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-sindy&kitch.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">Sindy & Kitch</h3>
+                            <p class="customers-card__text">
+                              Great job with the trainer!
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">5/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture>
+                            <source
+                              srcset="
+                                ./images/customers-image-christin&tom.webp
+                              "
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-christin&tom.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">
+                              Christin & Tom
+                            </h3>
+                            <p class="customers-card__text">
+                              Love the overall workout experience!
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">5/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture class="customers-card__image">
+                            <source
+                              srcset="./images/customers-image-anna&tobby.webp"
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-anna&tobby.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">Anna & Tobby</h3>
+                            <p class="customers-card__text">
+                              Amazing Products & Delivery on time.
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon customers-card__icon--light"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">4/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                      <li class="swiper-slide">
+                        <article class="customers-card">
+                          <picture class="customers-card__image">
+                            <source
+                              srcset="./images/customers-image-sindy&kitch.webp"
+                              type="image/webp"
+                            />
+                            <img
+                              class="customers-card__image"
+                              src="./images/customers-image-sindy&kitch.jpg"
+                              alt="christin&tom"
+                            />
+                          </picture>
+                          <div class="customers-card__content">
+                            <h3 class="customers-card__title">Sindy & Kitch</h3>
+                            <p class="customers-card__text">
+                              Great job with the trainer!
+                            </p>
+                            <div class="customers-card__rating">
+                              <div class="customers-card__rating__icons">
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                                <svg
+                                  class="customers-card__icon"
+                                  width="32"
+                                  height="14"
+                                >
+                                  <use
+                                    href="./images/icons.svg#icon-bone-icon"
+                                  ></use>
+                                </svg>
+                              </div>
+                              <p class="customers-card__rating__text">5/5</p>
+                            </div>
+                          </div>
+                        </article>
+                      </li>
+                    </ul>
+                    <div class="pagination">
+                      <span class="pagination__button"></span>
+                      <span class="pagination__button"></span>
+                      <span class="pagination__button"></span>
+                    </div>
+                  </div>
+                  <button
+                    class="customers-section__button carousel-button next"
+                    type="button"
+                  >
+                    <svg width="16" height="16">
+                      <use href="./images/icons.svg#icon-Arrow-1"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="contacts-section" id="contacts-section">
+            <div class="container">
+              <img
+                class="contacts-section__left-dog"
+                src="./images/contacts-section-left-dog.png"
+                alt="contacts-section-left-dog"
+              />
+              <div class="contacts-section__container">
+                <h2 class="section-title section-title--contacts">
+                  Our experts will take <br />care of your friend
+                </h2>
+                <p class="contacts-section__text">
+                  Fill out the form so we can contact you!
+                </p>
+                <form
+                  class="contacts-section__form"
+                  name="contacts-section-form"
+                  autocomplete="on"
+                >
+                  <div class="contacts-section__form-field input">
+                    <label class="input__label" for="user-name-section">
+                      <svg class="input__icons" width="32" height="32">
+                        <use
+                          href="./images/icons.svg#icon-user-name-icon"
+                        ></use>
+                      </svg>
+                    </label>
+                    <input
+                      class="input__control"
+                      type="text"
+                      id="user-name-section"
+                      name="user-name"
+                      placeholder="Your name"
+                      pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                      required
+                    />
+                  </div>
+                  <div class="contacts-section__form-field input">
+                    <label class="input__label" for="pet-name-section">
+                      <svg class="input__icons" width="32" height="32">
+                        <use
+                          href="./images/icons.svg#icon-dogs-name-icon"
+                        ></use>
+                      </svg>
+                    </label>
+                    <input
+                      class="input__control"
+                      type="text"
+                      id="pet-name-section"
+                      name="pet-name"
+                      placeholder="Pet name"
+                      pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                      required
+                    />
+                  </div>
+                  <div class="contacts-section__form-field input">
+                    <label class="input__label" for="user-tel-section">
+                      <svg class="input__icons" width="32" height="32">
+                        <use href="./images/icons.svg#icon-phone-icon"></use>
+                      </svg>
+                    </label>
+                    <input
+                      class="input__control"
+                      type="tel"
+                      id="user-tel-section"
+                      name="user-tel"
+                      placeholder="Your phone"
+                      pattern="^\+380[0-9]{9}"
+                      required
+                    />
+                  </div>
+                  <div class="contacts-section__form-field input">
+                    <label class="input__label" for="user-email-section">
+                      <svg class="input__icons" width="32" height="32">
+                        <use href="./images/icons.svg#icon-mail-icon"></use>
+                      </svg>
+                    </label>
+                    <input
+                      class="input__control"
+                      type="email"
+                      id="user-email-section"
+                      name="user-email"
+                      placeholder="Your email"
+                      pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+                      required
+                    />
+                  </div>
+                  <button class="button contacts-section__button" type="submit">
+                    Contact us
+                  </button>
+                </form>
+                <div class="checkbox">
+                  <form class="checkbox__form">
+                    <input
+                      class="checkbox__form__checkbox-input visually-hidden"
+                      type="checkbox"
+                      id="privacy-policy-section"
+                      name="privacy-policy-agreetment"
+                    />
+                    <label
+                      class="checkbox__form__checkbox-label"
+                      for="privacy-policy-section"
+                      >I agree to the privacy policy</label
+                    >
+                  </form>
+                </div>
+              </div>
+              <img
+                class="contacts-section__right-dog"
+                src="./images/contacts-section-right-dog.png"
+                alt="contacts-section-right-dog"
+              />
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="container"></div>
+      </footer>
+      <!-- Modal -->
+      <div class="backdrop is-hidden">
+        <div class="modal">
+          <div class="modal__content">
+            <button class="modal__close-button modal-btn-close" type="button">
+              <svg width="32" height="32">
+                <use href="./images/icons.svg#icon-close-button"></use>
+              </svg>
+            </button>
+            <h2
+              class="section-title section-title--centered section-title--contacts"
+            >
+              Our experts will take care of your friend
+            </h2>
+            <p class="modal__text">Fill out the form so we can contact you!</p>
+            <form class="modal__form" name="modal-form" autocomplete="off">
+              <div class="modal__form-field input">
+                <label class="input__label" for="user-name-modal">
+                  <svg class="input__icons" width="32" height="32">
+                    <use href="./images/icons.svg#icon-user-name-icon"></use>
+                  </svg>
+                </label>
+                <input
+                  class="input__control"
+                  type="text"
+                  id="user-name-modal"
+                  name="user-name-modal"
+                  placeholder="Your name"
+                  pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                  required
+                />
+              </div>
+              <div class="modal__form-field input">
+                <label class="input__label" for="pet-name-modal">
+                  <svg class="input__icons" width="32" height="32">
+                    <use href="./images/icons.svg#icon-dogs-name-icon"></use>
+                  </svg>
+                </label>
+                <input
+                  class="input__control"
+                  type="text"
+                  id="pet-name-modal"
+                  name="pet-name"
+                  placeholder="Pet name"
+                  pattern="^[Є-ЯҐа-їґ]+\s[Є-ЯҐа-їґ]+$"
+                  required
+                />
+              </div>
+              <div class="modal__form-field input">
+                <label class="input__label" for="user-tel-modal">
+                  <svg class="input__icons" width="32" height="32">
+                    <use href="./images/icons.svg#icon-phone-icon"></use>
+                  </svg>
+                </label>
+                <input
+                  class="input__control"
+                  type="tel"
+                  id="user-tel-modal"
+                  name="user-tel"
+                  placeholder="Your phone"
+                  pattern="^\+380[0-9]{9}"
+                  required
+                />
+              </div>
+              <div class="modal__form-field input">
+                <label class="input__label" for="user-email-modal">
+                  <svg class="input__icons" width="32" height="32">
+                    <use href="./images/icons.svg#icon-mail-icon"></use>
+                  </svg>
+                </label>
+                <input
+                  class="input__control"
+                  type="email"
+                  id="user-email-modal"
+                  name="user-email"
+                  placeholder="Your email"
+                  pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+                  required
+                />
+              </div>
+              <button class="button modal__button" type="submit">
+                Contact us
+              </button>
+            </form>
+            <div class="checkbox">
+              <form class="checkbox__form">
+                <input
+                  class="checkbox__form__checkbox-input visually-hidden"
+                  type="checkbox"
+                  id="privacy-policy-modal"
+                  name="privacy-policy-agreetment"
+                />
+                <label
+                  class="checkbox__form__checkbox-label"
+                  for="privacy-policy-modal"
+                  >I agree to the privacy policy</label
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/basket.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>
