@@ -849,8 +849,91 @@
           </section>
         </div>
       </main>
-      <footer>
-        <div class="container"></div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__icons">
+              <a class="footer__logo" href="#">
+                <img src="./images/logo.svg" alt="logo" />
+              </a>
+              <div class="footer__socials">
+                <a class="footer__icon-insta" href="#">
+                  <svg width="40" height="40">
+                    <use href="./images/icons.svg#icon-instagram-icon"></use>
+                  </svg>
+                </a>
+                <a class="footer__icon-facebook" href="#">
+                  <svg width="40" height="40">
+                    <use href="./images/icons.svg#icon-facebook-icon"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li>
+                  <a class="footer__links" href="#less-talk-section"
+                    >Less talk</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__links" href="#services-section"
+                    >Services category</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__links" href="#customers-section"
+                    >Happy customer</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__links" href="#contacts-section">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <form class="footer__form" name="footer-form" autocomplete="on">
+              <div class="footer__form-field input">
+                <label class="input__label" for="email-footer"></label>
+                <input
+                  type="email"
+                  class="input__control"
+                  id="email-footer"
+                  name="email-footer"
+                  placeholder="Your email"
+                  pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+                  required
+                />
+              </div>
+              <div class="footer__form-field input">
+                <label class="input__label" for="cmc-footer"></label>
+                <input
+                  class="input__control"
+                  type="text"
+                  id="cmc-footer"
+                  name="cmc-footer"
+                  placeholder="Your cmc"
+                  required
+                />
+              </div>
+              <button class="footer__button button">Contact us</button>
+              <div class="checkbox">
+                <form class="checkbox__form">
+                  <input
+                    class="checkbox__form__checkbox-input visually-hidden"
+                    type="checkbox"
+                    id="footer-checkbox"
+                    name="footer-checkbox"
+                  />
+                  <label
+                    class="checkbox__form__checkbox-label"
+                    for="footer-checkbox"
+                    >I agree to the privacy policy</label
+                  >
+                </form>
+              </div>
+            </form>
+          </div>
+        </div>
       </footer>
       <!-- Modal -->
       <div class="backdrop is-hidden">

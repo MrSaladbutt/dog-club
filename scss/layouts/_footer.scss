@@ -1,0 +1,62 @@
+.footer {
+  padding-top: 18px;
+  padding-bottom: 50px;
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 136px;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      gap: 24px;
+    }
+  }
+
+  &__logo {
+    flex-shrink: 0;
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__icon-insta {
+    fill: transparent;
+    width: 40px;
+    height: 40px;
+    stroke: var(--color-primary-orange);
+  }
+
+  &__icon-facebook {
+    fill: var(--color-primary-orange);
+    width: 40px;
+    height: 40px;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    &:not(:last-child) {
+      gap: 16px;
+    }
+  }
+}
